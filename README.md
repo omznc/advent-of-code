@@ -1,7 +1,7 @@
 # Advent of Code 
 <img src="https://img.shields.io/github/languages/top/omznc/advent-of-code?style=for-the-badge">
 
-<br>
+
 
 ## Hey there 👋
 
