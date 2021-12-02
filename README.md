@@ -15,17 +15,22 @@ Feel free to shit talk it.
 
 Erm, so, you really want to run them? Ok, fine.
 
-1. Get git and python 3.10
+1. Get git and Python 3.10
 2. Run these
-```bash
-git clone https://github.com/omznc/advent-of-code
-```
-```bash
-cd advent-of-code
-```
-```bash
-python3.10 runner.py
-```
+* Clone the repo
+
+    ```bash
+    git clone https://github.com/omznc/advent-of-code
+    ```
+
+* Go into the folder
+    ```bash
+    cd advent-of-code
+    ```
+* Run the thing
+    ```bash
+    python3.10 runner.py
+    ```
 
 
 There! How's that? Cool.
