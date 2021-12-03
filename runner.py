@@ -9,8 +9,7 @@ def clearConsole():
 clearConsole()
 
 print(
-    "Hey there! This is a simple script to run the actual finished Advent of Code solutions, with my unique inputs."
-    "\nRequires Python 3.10 or higher."
+    "Hey there! This is a simple script to run my finished Advent of Code solutions."
 )
 
 finished_days = sum(
@@ -19,12 +18,14 @@ finished_days = sum(
 
 
 while True:
-    tmp = input(f"You can leave this blank to run everything.\nWhat day would you like to run? (1 - {finished_days}): ")
+    tmp = input(
+        f"What day's problem would you like to run? (1 - {finished_days}, blank for all): "
+    )
     if len(tmp) == 0:
         choice = "all"
         break
     try:
-        if int(tmp) > finished_days or int(tmp) < 0:
+        if int(tmp) > finished_days or int(tmp) < 1:
             clearConsole()
             print("Hmm, I don't think I've finished that one yet.")
             continue
