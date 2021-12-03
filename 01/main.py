@@ -7,7 +7,6 @@ BOLD, END = "\033[1m", "\033[0m"
 
 
 def getInput(filename: str) -> list[int]:
-    tmp = []
     with open(os.path.dirname(os.path.realpath(__file__)) + f"\\{filename}", "r") as f:
         return list(map(int, f.read().split("\n")))
 
