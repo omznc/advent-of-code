@@ -13,6 +13,7 @@ for element in grid:
 stacks = [stack[::-1] for stack in stacks]
 
 # Part 1
+
 for command in commands:
     num, from_, to = regex.search(command).groups()
     for _ in range(int(num)):
@@ -22,9 +23,10 @@ for command in commands:
             break
 
 print("".join([stack.pop() for stack in stacks if stack]).replace('[', '').replace(']', ''))
-# As 1 string without
+
 
 # Part 2
+
 for command in commands:
     num, from_, to = regex.search(command).groups()
     try:
